@@ -1,0 +1,68 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+}
+
+#app {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  min-height: 100vh;
+}
+
+header {
+  background: #007BFF;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+nav button {
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  background: white;
+  color: #007BFF;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+nav button:hover {
+  background: #e6e6e6;
+}
+
+main {
+  padding: 20px;
+}
+
+form input, form button {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.question-block {
+  background: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+  #app {
+    padding: 10px;
+  }
+
+  nav button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
